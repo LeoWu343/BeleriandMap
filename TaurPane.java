@@ -9,7 +9,7 @@ public class TaurPane extends JPanel {
 
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
-        g.drawImage(new ImageIcon("C:/Users/Leo Wu/Dropbox/School Things/History of Middle Earth/BeleriandMap/Taur.png").getImage(), 0, 0, null);
+        g.drawImage(new ImageIcon("./Taur.png").getImage(), 0, 0, null);
         repaint();
     }
 }

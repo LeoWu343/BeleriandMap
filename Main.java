@@ -192,7 +192,7 @@ public class Main extends JFrame implements MouseListener {
     }
 
     private class BackgroundPane extends JPanel {
-        Image background = new ImageIcon("C:/Users/Leo Wu/Dropbox/School Things/History of Middle Earth/BeleriandMap/Beleriand.png").getImage();
+        Image background = new ImageIcon("./Beleriand.png").getImage();
         public void paintComponent(Graphics g) {
             super.paintComponent(g);
             g.drawImage(background, 0, 0, null);
